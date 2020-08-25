@@ -5,8 +5,8 @@ function App(){
 
     return(
         <div>
-            <Student/>
-            <Student/>
+            <Student name='Divya'/>
+            <Student name='Bhavya'/>
         </div>
     );
 }

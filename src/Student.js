@@ -1,11 +1,8 @@
-import React ,{Component} from 'react';
+import React from 'react';
 
-class Student extends Component{
+function Student(props){
 
-    render(){
-
-    return <h1>Hello Divya</h1>
-    }
+return <h1>Hello {props.name}</h1>;
 }
 
 
