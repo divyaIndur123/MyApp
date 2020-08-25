@@ -8,6 +8,7 @@ class App extends Component{
         <>
             <h1>Hello My-app Class Component 1</h1>
             <h1>Hello My-app Class Component 2</h1>
+            <h1>Hello My-app Class Component 2</h1>
         </> );
      
 
