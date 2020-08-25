@@ -2,4 +2,4 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Student from './Student';
 
-ReactDOM.render(<Student name="Diya"/>,document.getElementById('root'));
+ReactDOM.render(<Student name="Diya Ind"/>,document.getElementById('root'));
