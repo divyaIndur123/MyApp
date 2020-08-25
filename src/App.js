@@ -3,7 +3,14 @@ import React,{Component} from 'react';
 
 class App extends Component{
     render(){
-        return <h1>Hello My-app Class Component</h1>
+
+        return(   
+        <React.Fragment>
+            <h1>Hello My-app Class Component 1</h1>
+            <h1>Hello My-app Class Component 2</h1>
+        </React.Fragment> );
+     
+
     }
 }
 
