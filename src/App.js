@@ -1,6 +1,12 @@
 import React from 'react';
-import './App.css';
-const el=<h1 className='bg'>Hello Divya</h1>
+const Student = props =>{
+    return(
+        <div>
+            <h1>Hello {props.name}</h1>
+            <h1>your rollno is  {props.roll}</h1>
+        </div>
+    );
+}
 
-export default el;
+export default Student;
 
