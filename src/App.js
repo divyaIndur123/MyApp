@@ -1,11 +1,13 @@
-import React from 'react';
-const Student = props =>{
-    return(
-        <div>
-            <h1>Hello {props.name}</h1>
-            <h1>your rollno is  {props.roll}</h1>
-        </div>
-    );
+import React, { Component } from 'react';
+class Student extends Component{
+    render(){
+        return(
+            <div>
+                <h1>Hello {this.props.name}</h1>
+                <h1>your rollno is  {this.props.roll}</h1>
+            </div>
+        );
+    }
 }
 
 export default Student;
