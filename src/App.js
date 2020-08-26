@@ -15,6 +15,8 @@ Student.propTypes={                         //here propTypes has to be same
     name:PropTypes.string.isRequired,       // this is what we written in import here i have writen PropTypes if we write pt then
     roll : PropTypes.number                 // pt.number and isRequired makes it compulsory for value
 };
+
+
 export default Student;
 
 // isRequired not given and no value is given to the props.name then 
