@@ -6,5 +6,8 @@ import Student from './App';
 // ReactDOM.render(<Student name={678} roll="101"/>,document.getElementById('root'));
 
 // isRequired will solve this problem by giving warning in console.
-ReactDOM.render(<Student name roll={678}/>,document.getElementById('root'));
+//ReactDOM.render(<Student name roll={678}/>,document.getElementById('root'));
+
+// defaultProps will give the default value in these case
+ReactDOM.render(<Student roll={101}/>,document.getElementById('root'));
 

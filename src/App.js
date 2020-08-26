@@ -16,7 +16,9 @@ Student.propTypes={                         //here propTypes has to be same
     roll : PropTypes.number                 // pt.number and isRequired makes it compulsory for value
 };
 
-
+Student.defaultProps = {    // observe its props here
+    name:"defaultName"
+}
 export default Student;
 
 // isRequired not given and no value is given to the props.name then 
