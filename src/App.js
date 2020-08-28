@@ -1,16 +1,22 @@
-import React, { Component } from 'react';
+import React, {Component } from 'react'
+
 class Student extends Component{
+    state={
+        name:"Rahul",
+        roll:this.props.roll  // here we are doing in this way because props value cannot be changed so we first
+                              // pass it to the state then we change the value
+    };
+
     render(){
+
         return(
-            <div>
-                {/* we have to write the children to acces it */}
-                <h1>Hello {this.props.children}</h1> 
-                
-            </div>
+            <>
+        <h1>Hello, {this.state.name}</h1>
+        <h1>Hello, {this.state.roll}</h1>
+        </>
         );
     }
 }
-
 
 export default Student;
 
