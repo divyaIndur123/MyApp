@@ -4,4 +4,4 @@ import Student from './App';
 
 
 
-ReactDOM.render(<Student roll={105}/>,document.getElementById('root'));
+ReactDOM.render(<Student roll={106}/>,document.getElementById('root'));
